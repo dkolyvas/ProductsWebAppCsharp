@@ -1,0 +1,1029 @@
+[{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager  User profile is available. Using '"C:\Users\kolyv\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "https://localhost:7019"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "http://localhost:5035"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Application started. Press Ctrl+C to shut down.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Hosting environment: "Development"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Content root path: "C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Index\"}". Executing page "/Index"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Index" in 1453.0698ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ - - - 200 - text/html;+charset=utf-8 2394.2642ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/lib/bootstrap/dist/css/bootstrap.min.css - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/lib/jquery/dist/jquery.min.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  Sending file. Request path: '"/ProductsDBApp.styles.css"'. Physical path: '"C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\obj\Debug\net6.0\scopedcss\bundle\ProductsDBApp.styles.css"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\wwwroot\css\site.css"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - - - 200 1130 text/css 52.0141ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 55.0098ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 46.1582ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.min.js"'. Physical path: '"C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\wwwroot\js\site.js"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\wwwroot\lib\jquery\dist\jquery.min.js"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 202.8115ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 application/javascript 260.0291ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css"'. Physical path: '"C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 284.8052ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 314.6469ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 397.7195ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/favicon.ico - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\wwwroot\favicon.ico"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/favicon.ico - - - 200 5430 image/x-icon 48.6691ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager  User profile is available. Using '"C:\Users\kolyv\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "https://localhost:7019"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "http://localhost:5035"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Application started. Press Ctrl+C to shut down.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Hosting environment: "Development"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Content root path: "C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Index\"}". Executing page "/Index"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Index" in 1054.02ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ - - - 200 - text/html;+charset=utf-8 2059.6918ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 51.7772ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/ProductsDBApp.styles.css" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - - - 304 - text/css 154.7060ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 187.9535ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager  User profile is available. Using '"C:\Users\kolyv\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "https://localhost:7019"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "http://localhost:5035"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Application started. Press Ctrl+C to shut down.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Hosting environment: "Development"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Content root path: "C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Index\"}". Executing page "/Index"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Index" in 822.2619ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ - - - 200 - text/html;+charset=utf-8 1758.5111ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 114.1814ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 461.8418ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} ProductsDBApp.Service.ProductServiceImpl  An error ocurred while retrieving product list
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 859.0191ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products - - - 200 - text/html;+charset=utf-8 928.0809ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 6.0699ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.3659ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager  User profile is available. Using '"C:\Users\kolyv\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "https://localhost:7019"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "http://localhost:5035"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Application started. Press Ctrl+C to shut down.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Hosting environment: "Development"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Content root path: "C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Index\"}". Executing page "/Index"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Index" in 1009.769ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ - - - 200 - text/html;+charset=utf-8 1961.4666ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 35.1878ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 84.3577ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager  User profile is available. Using '"C:\Users\kolyv\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "https://localhost:7019"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "http://localhost:5035"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Application started. Press Ctrl+C to shut down.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Hosting environment: "Development"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Content root path: "C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Index\"}". Executing page "/Index"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Index" in 1104.5936ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ - - - 200 - text/html;+charset=utf-8 1909.0455ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 45.3992ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/ProductsDBApp.styles.css" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - - - 304 - text/css 115.7431ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 246.8330ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 2269.6892ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products - - - 200 - text/html;+charset=utf-8 2320.2141ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 37.8530ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 86.6920ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager  User profile is available. Using '"C:\Users\kolyv\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "https://localhost:7019"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "http://localhost:5035"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Application started. Press Ctrl+C to shut down.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Hosting environment: "Development"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Content root path: "C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Index\"}". Executing page "/Index"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Index" in 1197.6824ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ - - - 200 - text/html;+charset=utf-8 2772.0824ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 65.1647ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/ProductsDBApp.styles.css" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 142.9833ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - - - 304 - text/css 148.2345ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 1593.7273ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products - - - 200 - text/html;+charset=utf-8 1729.6559ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 13.7436ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 160.8887ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager  User profile is available. Using '"C:\Users\kolyv\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "https://localhost:7019"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "http://localhost:5035"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Application started. Press Ctrl+C to shut down.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Hosting environment: "Development"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Content root path: "C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Index\"}". Executing page "/Index"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Index" in 1656.4468ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ - - - 200 - text/html;+charset=utf-8 2218.8049ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/lib/bootstrap/dist/css/bootstrap.min.css - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/lib/jquery/dist/jquery.min.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 29.7827ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/ProductsDBApp.styles.css" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/lib/jquery/dist/jquery.min.js" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/css/site.css" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/lib/bootstrap/dist/css/bootstrap.min.css" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/lib/bootstrap/dist/js/bootstrap.bundle.min.js" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - - - 304 - text/css 75.4363ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 66.2424ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 304 - text/css 80.8922ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 81.7867ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 53.3589ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/js/site.js" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 32.4079ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 176.5330ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 1547.3413ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products - - - 200 - text/html;+charset=utf-8 1614.2292ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 4.5122ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.3325ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products/add - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Add\"}". Executing page "/Products/Add"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.AddModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Add" in 204.6538ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products/add - - - 200 - text/html;+charset=utf-8 275.6254ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 5.3177ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.9997ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 POST https://localhost:7019/products/add application/x-www-form-urlencoded 246
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Add\"}". Executing page "/Products/Add"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.AddModel.OnPost" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} ProductsDBApp.Service.ProductServiceImpl  An error occured while inserting a new product
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnPost", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Add" in 1386.5632ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 POST https://localhost:7019/products/add application/x-www-form-urlencoded 246 - 200 - text/html;+charset=utf-8 1489.7714ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 4.5250ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.7641ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 POST https://localhost:7019/products/add application/x-www-form-urlencoded 248
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Add\"}". Executing page "/Products/Add"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.AddModel.OnPost" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} ProductsDBApp.Service.ProductServiceImpl  An error occured while inserting a new product
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnPost", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Add" in 412.7913ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 POST https://localhost:7019/products/add application/x-www-form-urlencoded 248 - 200 - text/html;+charset=utf-8 506.0376ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 6.0299ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.0147ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products/ - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 309.7302ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products/ - - - 200 - text/html;+charset=utf-8 344.8537ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 94.1093ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 98.2757ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager  User profile is available. Using '"C:\Users\kolyv\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "https://localhost:7019"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "http://localhost:5035"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Application started. Press Ctrl+C to shut down.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Hosting environment: "Development"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Content root path: "C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Index\"}". Executing page "/Index"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Index" in 2903.5268ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ - - - 200 - text/html;+charset=utf-8 5047.3708ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 30.3818ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/ProductsDBApp.styles.css" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - - - 304 - text/css 155.5197ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 197.8978ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products/add - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Add\"}". Executing page "/Products/Add"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.AddModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Add" in 629.0883ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products/add - - - 200 - text/html;+charset=utf-8 750.2012ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 109.3582ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 104.5351ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 POST https://localhost:7019/products/add application/x-www-form-urlencoded 248
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Add\"}". Executing page "/Products/Add"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.AddModel.OnPost" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} ProductsDBApp.Service.ProductServiceImpl  An error occured while inserting a new product
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnPost", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Add" in 2126.1665ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 POST https://localhost:7019/products/add application/x-www-form-urlencoded 248 - 200 - text/html;+charset=utf-8 2172.3349ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 12.2868ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 69.2023ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 POST https://localhost:7019/products/add application/x-www-form-urlencoded 246
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Add\"}". Executing page "/Products/Add"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.AddModel.OnPost" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} ProductsDBApp.Service.ProductServiceImpl  An error occured while inserting a new product
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnPost", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Add" in 1534.5924ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 POST https://localhost:7019/products/add application/x-www-form-urlencoded 246 - 200 - text/html;+charset=utf-8 1654.4437ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 27.0595ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 673.2950ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager  User profile is available. Using '"C:\Users\kolyv\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "https://localhost:7019"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "http://localhost:5035"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Application started. Press Ctrl+C to shut down.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Hosting environment: "Development"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Content root path: "C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Index\"}". Executing page "/Index"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Index" in 1937.6307ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ - - - 200 - text/html;+charset=utf-8 2733.2656ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 22.5040ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 234.2688ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 1534.4835ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products - - - 200 - text/html;+charset=utf-8 1580.3301ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 3.9532ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.9983ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products/add - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Add\"}". Executing page "/Products/Add"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.AddModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Add" in 157.8906ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products/add - - - 200 - text/html;+charset=utf-8 252.6628ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 9.1763ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.0323ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 POST https://localhost:7019/products/add application/x-www-form-urlencoded 248
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Add\"}". Executing page "/Products/Add"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.AddModel.OnPost" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnPost", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Add" in 733.9502ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 POST https://localhost:7019/products/add application/x-www-form-urlencoded 248 - 302 - text/html;+charset=utf-8 780.5027ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 60.1647ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products - - - 200 - text/html;+charset=utf-8 127.9751ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 9.5036ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.9394ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products/add - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Add\"}". Executing page "/Products/Add"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.AddModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Add" in 66.8801ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products/add - - - 200 - text/html;+charset=utf-8 163.8014ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 13.5249ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.8633ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 POST https://localhost:7019/products/add application/x-www-form-urlencoded 256
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Add\"}". Executing page "/Products/Add"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.AddModel.OnPost" - ModelState is Invalid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnPost", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Invalid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Add" in 103.2768ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 POST https://localhost:7019/products/add application/x-www-form-urlencoded 256 - 302 - text/html;+charset=utf-8 169.9634ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 63.3099ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products - - - 200 - text/html;+charset=utf-8 130.8394ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 6.9280ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.6149ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager  User profile is available. Using '"C:\Users\kolyv\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "https://localhost:7019"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "http://localhost:5035"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Application started. Press Ctrl+C to shut down.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Hosting environment: "Development"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Content root path: "C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Index\"}". Executing page "/Index"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Index" in 1743.5682ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/lib/bootstrap/dist/css/bootstrap.min.css - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ - - - 200 - text/html;+charset=utf-8 3213.2078ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/lib/jquery/dist/jquery.min.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 51.6951ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/css/site.css" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/lib/bootstrap/dist/css/bootstrap.min.css" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/lib/jquery/dist/jquery.min.js" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/lib/bootstrap/dist/js/bootstrap.bundle.min.js" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/ProductsDBApp.styles.css" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 304 - text/css 91.2268ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 132.0908ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 96.4005ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 56.6436ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - - - 304 - text/css 105.4008ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/js/site.js" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - application/javascript 70.5102ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 347.4282ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 2740.6428ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products - - - 200 - text/html;+charset=utf-8 2822.3004ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 25.3333ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 62.2034ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products/update/6 - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Update\"}". Executing page "/Products/Update"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.UpdateModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Update" in 270.3993ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products/update/6 - - - 200 - text/html;+charset=utf-8 377.9684ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 12.8322ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 66.7659ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager  User profile is available. Using '"C:\Users\kolyv\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "https://localhost:7019"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "http://localhost:5035"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Application started. Press Ctrl+C to shut down.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Hosting environment: "Development"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Content root path: "C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Index\"}". Executing page "/Index"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Index" in 1446.7747ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ - - - 200 - text/html;+charset=utf-8 2806.6192ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 50.7331ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/ProductsDBApp.styles.css" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - - - 304 - text/css 119.8374ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 133.8741ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 1420.6535ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products - - - 200 - text/html;+charset=utf-8 1482.2086ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 6.6449ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.3006ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products/update/6 - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Update\"}". Executing page "/Products/Update"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.UpdateModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Update" in 358.9482ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products/update/6 - - - 200 - text/html;+charset=utf-8 473.7581ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 31.7699ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 70.8900ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 POST https://localhost:7019/products/update/6 application/x-www-form-urlencoded 257
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Update\"}". Executing page "/Products/Update"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.UpdateModel.OnPost" - ModelState is Invalid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnPost", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Invalid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Update" in 164.1961ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 POST https://localhost:7019/products/update/6 application/x-www-form-urlencoded 257 - 200 - text/html;+charset=utf-8 194.3184ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 8.7677ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.2291ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 POST https://localhost:7019/products/update/6 application/x-www-form-urlencoded 261
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Update\"}". Executing page "/Products/Update"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.UpdateModel.OnPost" - ModelState is Invalid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnPost", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Invalid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Update" in 40.7921ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 POST https://localhost:7019/products/update/6 application/x-www-form-urlencoded 261 - 200 - text/html;+charset=utf-8 68.8302ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 17.2769ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.8366ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 POST https://localhost:7019/products/update/6 application/x-www-form-urlencoded 261
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Update\"}". Executing page "/Products/Update"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.UpdateModel.OnPost" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} ProductsDBApp.Service.ProductServiceImpl  An error occured while updating product
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnPost", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Update" in 528.7549ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 POST https://localhost:7019/products/update/6 application/x-www-form-urlencoded 261 - 200 - text/html;+charset=utf-8 577.0276ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 5.4618ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 70.5127ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager  User profile is available. Using '"C:\Users\kolyv\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "https://localhost:7019"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "http://localhost:5035"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Application started. Press Ctrl+C to shut down.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Hosting environment: "Development"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Content root path: "C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Index\"}". Executing page "/Index"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Index" in 1858.8165ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ - - - 200 - text/html;+charset=utf-8 3273.7281ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 51.4138ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 272.8877ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 1757.7593ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products - - - 200 - text/html;+charset=utf-8 2051.7176ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 49.5467ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 104.3419ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products/update/6 - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Update\"}". Executing page "/Products/Update"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.UpdateModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Update" in 404.5635ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products/update/6 - - - 200 - text/html;+charset=utf-8 525.6309ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 10.2985ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 121.3405ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 POST https://localhost:7019/products/update/6 application/x-www-form-urlencoded 260
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Update\"}". Executing page "/Products/Update"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.UpdateModel.OnPost" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnPost", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Update" in 385.4232ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 POST https://localhost:7019/products/update/6 application/x-www-form-urlencoded 260 - 302 - text/html;+charset=utf-8 425.0685ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 97.5993ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products - - - 200 - text/html;+charset=utf-8 154.4083ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 6.9255ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 70.7609ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products/update/6 - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Update\"}". Executing page "/Products/Update"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.UpdateModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Update" in 61.2024ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products/update/6 - - - 200 - text/html;+charset=utf-8 119.9292ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 9.8382ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.5459ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 POST https://localhost:7019/products/update/6 application/x-www-form-urlencoded 262
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Update\"}". Executing page "/Products/Update"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.UpdateModel.OnPost" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnPost", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Update" in 67.4078ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Update"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 POST https://localhost:7019/products/update/6 application/x-www-form-urlencoded 262 - 302 - text/html;+charset=utf-8 107.6751ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 41.849ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products - - - 200 - text/html;+charset=utf-8 109.3469ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 16.8058ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 52.6577ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager  User profile is available. Using '"C:\Users\kolyv\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "https://localhost:7019"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "http://localhost:5035"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Application started. Press Ctrl+C to shut down.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Hosting environment: "Development"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Content root path: "C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Index\"}". Executing page "/Index"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Index" in 1872.7601ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/js/site.js?v=m6yFCA4rTezyUkiZQH38GCvTnFEBYb5x66S2tnNGv2E - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/lib/bootstrap/dist/css/bootstrap.min.css - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ - - - 200 - text/html;+charset=utf-8 3481.1155ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 29.1395ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\wwwroot\js\site.js"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/js/site.js?v=m6yFCA4rTezyUkiZQH38GCvTnFEBYb5x66S2tnNGv2E - - - 200 399 application/javascript 65.5788ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/css/site.css" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/lib/bootstrap/dist/css/bootstrap.min.css" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/ProductsDBApp.styles.css" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/lib/jquery/dist/jquery.min.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 304 - text/css 121.1655ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 125.8870ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - - - 304 - text/css 128.3027ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/lib/bootstrap/dist/js/bootstrap.bundle.min.js" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/lib/jquery/dist/jquery.min.js" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 60.9829ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/lib/jquery/dist/jquery.min.js - - - 304 - application/javascript 116.7343ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 810.9329ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 2277.3318ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products - - - 200 - text/html;+charset=utf-8 2331.3980ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/js/site.js?v=m6yFCA4rTezyUkiZQH38GCvTnFEBYb5x66S2tnNGv2E - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/js/site.js" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 42.8648ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/js/site.js?v=m6yFCA4rTezyUkiZQH38GCvTnFEBYb5x66S2tnNGv2E - - - 304 - application/javascript 53.9732ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 102.4291ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products/delete/5 - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Delete"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Delete\"}". Executing page "/Products/Delete"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.DeleteModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} ProductsDBApp.Service.ProductServiceImpl  An error occured while deleting product
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Delete" in 695.5037ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products?deleteError=true - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Delete"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products/delete/5 - - - 302 - text/html;+charset=utf-8 793.6221ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 74.4767ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products?deleteError=true - - - 200 - text/html;+charset=utf-8 130.8106ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/js/site.js?v=m6yFCA4rTezyUkiZQH38GCvTnFEBYb5x66S2tnNGv2E - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 3.0055ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/js/site.js" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/js/site.js?v=m6yFCA4rTezyUkiZQH38GCvTnFEBYb5x66S2tnNGv2E - - - 304 - application/javascript 17.8367ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.6409ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager  User profile is available. Using '"C:\Users\kolyv\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "https://localhost:7019"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "http://localhost:5035"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Application started. Press Ctrl+C to shut down.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Hosting environment: "Development"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Content root path: "C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/ - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Index\"}". Executing page "/Index"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Index" in 923.8628ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/ - - - 200 - text/html;+charset=utf-8 1804.6430ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/js/site.js?v=m6yFCA4rTezyUkiZQH38GCvTnFEBYb5x66S2tnNGv2E - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 120.5429ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  The file "/js/site.js" was not modified
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/js/site.js?v=m6yFCA4rTezyUkiZQH38GCvTnFEBYb5x66S2tnNGv2E - - - 304 - application/javascript 303.0609ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 320.4834ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 1552.9076ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products - - - 200 - text/html;+charset=utf-8 1616.1944ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 50.1365ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 93.6306ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products/delete/4 - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Delete"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Delete\"}". Executing page "/Products/Delete"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.DeleteModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Delete" in 421.3321ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Delete"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products/delete/4 - - - 302 - text/html;+charset=utf-8 529.7066ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 69.3423ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/products - - - 200 - text/html;+charset=utf-8 163.9919ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 3.7663ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.3097ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager  User profile is available. Using '"C:\Users\kolyv\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "https://localhost:5001"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Now listening on: "http://localhost:5000"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Application started. Press Ctrl+C to shut down.
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Hosting environment: "Development"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.Hosting.Lifetime  Content root path: "C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/ - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Index\"}". Executing page "/Index"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Index" in 1008.4416ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Index"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 1954.4033ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=m6yFCA4rTezyUkiZQH38GCvTnFEBYb5x66S2tnNGv2E - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 39.4460ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  Sending file. Request path: '"/ProductsDBApp.styles.css"'. Physical path: '"C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\obj\Debug\net6.0\scopedcss\bundle\ProductsDBApp.styles.css"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\wwwroot\js\site.js"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/ProductsDBApp.styles.css?v=WkLl9lSBoaR6PBmS4va1647UKOeHVJkIF0fo_sL7SqU - - - 200 1130 text/css 50.0916ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/js/site.js?v=m6yFCA4rTezyUkiZQH38GCvTnFEBYb5x66S2tnNGv2E - - - 200 399 application/javascript 56.4643ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\wwwroot\css\site.css"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 122.2756ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.min.js"'. Physical path: '"C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\wwwroot\lib\jquery\dist\jquery.min.js"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 216.0819ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 application/javascript 212.2254ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css"'. Physical path: '"C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 229.4239ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 293.1478ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware  Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\kolyv\source\repos\CodingFactory4\ProductsDBApp\wwwroot\favicon.ico"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 200 5430 image/x-icon 111.7276ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/students/insert - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/students/insert - - - 404 0 - 56.9471ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 1387.679ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/products - - - 200 - text/html;+charset=utf-8 1453.2223ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 5.3554ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.9703ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/products/add - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Add\"}". Executing page "/Products/Add"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.AddModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Add" in 161.7168ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/products/add - - - 200 - text/html;+charset=utf-8 305.4888ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 2.6514ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.9122ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 POST https://localhost:5001/products/add application/x-www-form-urlencoded 265
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Add\"}". Executing page "/Products/Add"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.AddModel.OnPost" - ModelState is Invalid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnPost", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Invalid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Add" in 188.3049ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 POST https://localhost:5001/products/add application/x-www-form-urlencoded 265 - 200 - text/html;+charset=utf-8 229.7276ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 77.7826ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 123.4978ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 POST https://localhost:5001/products/add application/x-www-form-urlencoded 269
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Add\"}". Executing page "/Products/Add"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.AddModel.OnPost" - ModelState is Invalid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnPost", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Invalid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Add" in 44.4523ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 POST https://localhost:5001/products/add application/x-www-form-urlencoded 269 - 200 - text/html;+charset=utf-8 71.9908ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 3.0317ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.6480ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 POST https://localhost:5001/products/add application/x-www-form-urlencoded 270
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/Add\"}". Executing page "/Products/Add"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.AddModel.OnPost" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnPost", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/products - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/Add" in 539.0624ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/Add"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executing endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 POST https://localhost:5001/products/add application/x-www-form-urlencoded 270 - 302 - text/html;+charset=utf-8 572.7078ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Route matched with "{page = \"/Products/ShowProducts\"}". Executing page "/Products/ShowProducts"
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing handler method "ProductsDBApp.Pages.Products.ShowProductsModel.OnGet" - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed handler method "OnGet", returned result "".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executing an implicit handler method - ModelState is Valid
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker  Executed page "/Products/ShowProducts" in 65.5896ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Routing.EndpointMiddleware  Executed endpoint '"/Products/ShowProducts"'
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/products - - - 200 - text/html;+charset=utf-8 125.4306ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 7.6995ms
+][{ Timestamp: dd-mm-yyyy HH:mm:ss} Microsoft.AspNetCore.Hosting.Diagnostics  Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.8043ms
+]

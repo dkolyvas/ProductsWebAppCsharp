@@ -1,0 +1,51 @@
+﻿@page "/products"
+@model ProductsDBApp.Pages.Products.ShowProductsModel
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<div class="mx-auto text-primary-emphasis">
+    <h1 class="text-center"> Product List </h1>
+    <p class="text-center">
+        <a href="/products/add" class="btn btn-warning">+ Add new</a>
+    </p>
+    <table class="mx-auto table table-dark table-striped">
+        <thead>
+            <tr>
+                <th> ID</th>
+                <th>Product Name</th>
+                <th> Description</th>
+                <th> Price</th>
+                <th> Quantity in stock</th>
+                <th> Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var product in Model.Products)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.Description</td>
+                    <td>@product.Price</td>
+                    <td>@product.Quantity</td>
+                    <td>
+                        <a href="/products/update/@product.Id" class="btn btn-warning">Modify</a>
+                        <a href="javascript::void(0);" onclick="confirmDelete(@product.Id)" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+</div>
+<div class="text-danger">
+    @if(Model.ErrorList.Count >0)
+    {
+        @foreach(var error in Model.ErrorList)
+        {
+            <p>@error.ToString()</p>
+        }
+    }
+</div>
